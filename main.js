@@ -26,6 +26,8 @@ const createWindow = () => {
     win.on('close', () => {
         win = null;
     });
+
+    require('./main-process/menu');
 }
 
 
